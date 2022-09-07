@@ -1,2 +1,0 @@
-(()=>{"use strict";var o="Luiz",n="juan";function a(o){console.log("".concat(o," está falando!"))}console.log(o,"Miranda",30),console.log(7),a(o),a(n),a(n="gato")})();
-//# sourceMappingURL=bundle.js.map
