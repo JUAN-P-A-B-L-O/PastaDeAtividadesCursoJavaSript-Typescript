@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+    margin: 50 auto;
+}
+body{
+
+    margin: 0;
+    width: 400px;
+    padding: 0;
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.resultado{
+    font-size: 40px;
+    font-family: monospace;
+}
+.form{
+    contain: size20px;
+}

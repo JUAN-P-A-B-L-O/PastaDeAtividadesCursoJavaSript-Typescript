@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"AAEAA,QAAQC,IADG,GAEXD,QAAQC,IAAR","sources":["webpack://Webpack-estudo/./src/index.js"],"sourcesContent":["let falae;\nconst fala=2;\nconsole.log(fala)\nconsole.log(`teste`);"],"names":["console","log"],"sourceRoot":""}

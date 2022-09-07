@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Real</title>
+    <link rel="stylesheet" href="./Script.js">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .cor_site:checked+.tudo {
+            background-color: yellow;
+        }
+
+        .red_cor:checked+.tudo {
+            background-color: red;
+        }
+
+        body {}
+
+        #cabecalho {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        header {
+            text-align: center;
+            padding: 4%;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        .primeiro_block {
+            text-align: center;
+            margin-bottom: 15%;
+        }
+
+        .topo {
+            padding-bottom: 10px;
+
+        }
+
+        div.menu {
+
+            display: flex;
+            justify-content: space-between;
+            border: solid 4px black;
+            padding-left: 20%;
+            padding-right: 20%;
+
+        }
+
+        .menu:hover {}
+
+        .guia {
+            opacity: 0;
+            background-color: blue;
+        }
+
+        .guia:hover {
+            background-color: rgba(9, 26, 126, 0.288);
+            opacity: 1;
+            transition: 2s;
+            display: block;
+
+        }
+
+        .guia:hover p {
+            color: red;
+            background-color: blue;
+        }
+
+        [meu_atributo] {
+            color: rgb(255, 255, 255);
+        }
+
+        .over {
+            overflow-y: scroll;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="checkbox" class="cor_site">
+    <input type="checkbox" class="red_cor">
+    <div class="tudo">
+        <div class="topo">
+            <header id="cabecalho">
+                <div>Netflix</div>
+                <div id="entrar"><button type="submit">Entrar</button>/idioma</div>
+            </header>
+            <div class="primeiro_block">
+                <h1 meu_atributo>Filmes, séries e muito mais. Sem limites.</h1>
+                <h2>Assista onde quiser. Cancele quando quiser.</h2>
+                <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+                <form action="" class="form1">
+                    <input type="text" class="formu">
+                    <button type="submit">Vamos Lá!</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div>
+                <ul>
+                    <h3 meu_atributo>Placas de video</h3>
+                    <nav class="guia">
+                        <li>gtx920</li>
+                        <li>gtx930</li>
+                        <li>gtx930</li>
+                        <li>gtx930</li>
+                    </nav>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <h3 meu_atributo>Placas de video</h3>
+                    <nav class="guia">
+                        <li>gtx920</li>
+                        <li>gtx930</li>
+                        <li>gtx930</li>
+                        <li>gtx930</li>
+                    </nav>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <h3>Placas de video</h3>
+                    <nav class="guia">
+                        <li>gtx920</li>
+                        <li>gtx930</li>
+                        <li>gtx930</li>
+                        <li>gtx930</li>
+                    </nav>
+                </ul>
+            </div>
+
+        </div>
+        <form action="">
+            <input type="email" placeholder="Mds">
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+
+    <p class="over"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad velit odio ea quidem excepturi,
+        commodi officia dignissimos impedit nemo alias dolorum quos laboriosam veritatis neque obcaecati iusto accusamus
+        voluptas quisquam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus dolorum quam ipsa
+        voluptate obcaecati quisquam molestias blanditiis eligendi quaerat necessitatibus odit est minus dicta,
+        consequatur quas libero laborum! Repudiandae, quia. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Necessitatibus ipsum dolores eum ipsa eaque incidunt reiciendis, aspernatur architecto harum similique porro
+        provident illum quia in sit. Vel, est quibusdam. Dignissimos!Lorem Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Beatae, pariatur enim quos, repudiandae rerum aut illum doloribus, accusamus quisquam
+        consectetur qui necessitatibus assumenda possimus optio dignissimos doloremque! Fuga, amet distinctio?</p>
+
+
+
+
+    <script src="./Script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+UPDATE usuarios SET idade= 100 WHERE idade=8;

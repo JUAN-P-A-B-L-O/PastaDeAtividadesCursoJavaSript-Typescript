@@ -1,0 +1,14 @@
+<%- include('includes/head'); %>
+
+<section class="container">
+  <h1>pagina inicial bonitinha nao logada</h1>
+  <form action="/home/senha" method="post">
+    <input type="hidden" name="_csrf" value=<%= csrfToken %>>
+
+    <label for="form">Diga a senha</label>
+    <input id="form" type="text" name="password">
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<%- include('includes/footer'); %>
